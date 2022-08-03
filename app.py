@@ -23,10 +23,12 @@ def predict():
 
         prediction=model.predict([[DBP,SBP,FastingBloodSugar,Triglycerides,HDLcholestrol,LDLcholestrol]])
         output=prediction
-        if output < 1:
-            return render_template('index.html',prediction_texts="Unlikely to suffer from Metabolic Syndrome")
+        if output < 0:
+            return render_template('index.html',prediction_texts="Likely to suffer from Metabolic Syndrome")
+        elif output < 1:
+            return render_template('index.html',prediction_text="Unlikely to suffer from Metabolic Syndrome")
         else:
-            return render_template('index.html',prediction_text="Likely to suffer from Metabolic Syndrome")
+            return render_template('index.html', prediction_text="Enter clinically accepted values")
     else:
         return render_template('index.html')
 
