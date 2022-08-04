@@ -6,19 +6,27 @@ On their own, diabetes, high blood pressure and obesity can damage your blood ve
 
 The aim of this project is to identify patients at risk of developing Metabolic Syndrome and also to assist front-line staff in identification and detection of Metabolic Syndrome.
 
-app link: https://metabolicsyndrome.herokuapp.com
+App link: https://metabolicsyndrome.herokuapp.com
 
 ## Dataset
+The dataset "Metabolic Sydrome data" contains records of 10,046 respondents. For each respondent, 5 attributes are known: Diastolic blood pressure (DSP), Systolic blood pressure (SBP), Fasting blood sugar, Triglycerides, HDL Cholesterol and LDL Cholesterol. and a binary classification response column IDFMetsynd (International Diabetes Federation Metabolic syndrome).
 
+Diastolic blood pressure (DSP)
+Systolic blood pressure (SBP)
+Fasting blood sugar
+Triglycerides
+HDL Cholesterol
+LDL Cholesterol
 ## Algorithms
 The algorithms leveraged in this project are Random Forest, KNN, Logistic Regression and Stacking ensemble and the AUC-ROC Curve is the metric used for model evaluation.
 
 The **Receiver Operator Characteristic (ROC)** curve is an evaluation metric for binary classification problems. The **Area Under the Curve (AUC)** is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve. **The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes**.
 
 ### Hyperparameter Tunning
-
+Hyperparameter tuning is an essential aspect of machine learning process. A good choice of hyperparameters can really make a model succeed in meeting desired metric value or on the contrary it can lead to a unending cycle of continuous training and optimization. 
 
 ### Model Evaluation
+The table below shows the evaluation of each model before and after hyperparameter tuning.
 
 | Models | Base Model (%) | Tunned Model (%) |
 | :----: | :------------: | :--------------: |
