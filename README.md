@@ -1,5 +1,5 @@
 # Overview
-This is a Metabolic Syndrome Prediction Flask app trained with Random forest, KNN, Logistic regression models and stacking ensemble technique with deployment done in Heroku. 
+This is a Metabolic Syndrome Prediction Flask app trained with Random forest, KNN, Logistic regression models and stacking ensemble technique with deployment done in Heroku. The model with the best evaluation metric is the hyperparameter tunned Random Forest model with ROC curve of 94%.
 
 Metabolic syndrome is the medical term for a combination of diabetes, high blood pressure (hypertension) and obesity. It puts you at greater risk of getting coronary heart disease, stroke and other conditions that affect the blood vessels.
 On their own, diabetes, high blood pressure and obesity can damage your blood vessels, but having all 3 together is particularly dangerous. They're very common conditions that are linked, which explains why metabolic syndrome affects an estimated 1 in 3 older adults aged 50 or over in the UK.
@@ -11,12 +11,12 @@ App link: https://metabolicsyndrome.herokuapp.com
 ## Dataset
 The dataset "Metabolic Sydrome data" contains records of 10,046 respondents. For each respondent, 5 attributes are known: Diastolic blood pressure (DSP), Systolic blood pressure (SBP), Fasting blood sugar, Triglycerides, HDL Cholesterol and LDL Cholesterol. and a binary classification response column IDFMetsynd (International Diabetes Federation Metabolic syndrome).
 
-Diastolic blood pressure (DSP): __
-Systolic blood pressure (SBP): __
-Fasting blood sugar: <br />
-Triglycerides <br />
-HDL Cholesterol <br />
-LDL Cholesterol
+Diastolic blood pressure (DSP): Normal blood pressure range 60-90 *mm/HG*  <br />
+Systolic blood pressure (SBP): Normal blood pressure range 95-145 *mm/HG* <br />
+Fasting blood sugar: Normal blood glucose level (tested while fasting) for non-diabetics is 70-130 *mg/dL* <br />
+Triglycerides: Healthy range is <150 *mg/dL* <br />
+HDL Cholesterol: Normal findings for HDL-C are as follows : Male: >45 *mg/dL*, Female: >55 *mg/dL* <br />
+LDL Cholesterol: Normal findings for LDL-C are as follows : Male: <100 *mg/dL*, Female: <100 *mg/dL* <br />
 ## Algorithms
 The algorithms leveraged in this project are Random Forest, KNN, Logistic Regression and Stacking ensemble and the AUC-ROC Curve is the metric used for model evaluation.
 
