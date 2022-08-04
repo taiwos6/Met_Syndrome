@@ -7,3 +7,11 @@ On their own, diabetes, high blood pressure and obesity can damage your blood ve
 The aim of this project is to identify patients at risk of developing Metabolic Syndrome and also to assist front-line staff in identification and detection of Metabolic Syndrome.
 
 app link: https://metabolicsyndrome.herokuapp.com
+
+## Dataset
+
+## Algorithms
+The algorithms leveraged in this project are Random Forest, KNN, Logistic Regression and Stacking ensemble and the AUC-ROC Curve is the metric used for model evaluation.
+
+The **Receiver Operator Characteristic (ROC)** curve is an evaluation metric for binary classification problems. The **Area Under the Curve (AUC)** is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve. **The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes**.
+
