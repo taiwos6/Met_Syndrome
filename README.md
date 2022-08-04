@@ -15,3 +15,14 @@ The algorithms leveraged in this project are Random Forest, KNN, Logistic Regres
 
 The **Receiver Operator Characteristic (ROC)** curve is an evaluation metric for binary classification problems. The **Area Under the Curve (AUC)** is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve. **The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes**.
 
+### Hyperparameter Tunning
+
+
+### Model Evaluation
+
+| Models | Base Model (%) | Tunned Model (%) |
+| :----: | :------------: | :--------------: |
+|   RF   |       93       |        94        |
+|  KNN   |       89       |        92        |
+|   LR   |       89       |        -         |
+|   ES   |       93       |        93        |
