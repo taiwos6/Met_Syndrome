@@ -11,9 +11,12 @@ App link: https://metabolicsyndrome.herokuapp.com
 ## Dataset
 The dataset "Metabolic Sydrome data" contains records of 10,046 respondents. For each respondent, 5 attributes are known: Diastolic blood pressure (DSP), Systolic blood pressure (SBP), Fasting blood sugar, Triglycerides, HDL Cholesterol and LDL Cholesterol. and a binary classification response column IDFMetsynd (International Diabetes Federation Metabolic syndrome).
 
-Diastolic blood pressure (DSP)
-Systolic blood pressure (SBP)
-Fasting blood sugar
+Diastolic blood pressure (DSP): 
+\newline
+Systolic blood pressure (SBP): 
+
+Fasting blood sugar:
+
 Triglycerides
 HDL Cholesterol
 LDL Cholesterol
